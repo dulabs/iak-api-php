@@ -12,7 +12,7 @@ PHP library to help you integrate your system to Indobest Artha Kreasi (IAK) API
 Using Composer
 
 ```php
-composer require iak-id/iak-api-php
+composer require dulabs/iak-api-php
 ```
 
 ## Getting Started
