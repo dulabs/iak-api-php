@@ -2,8 +2,8 @@
 
 namespace Tests\Feature\Postpaid;
 
-use IakID\IakApiPHP\Exceptions\MissingArguements;
-use IakID\IakApiPHP\Helpers\Formats\ResponseFormatter;
+use Dulabs\IakApiPHP\Exceptions\MissingArguements;
+use Dulabs\IakApiPHP\Helpers\Formats\ResponseFormatter;
 use Tests\Mock\Postpaid\DownloadBillMock;
 use Tests\TestCase;
 
@@ -48,7 +48,7 @@ class DownloadBillTest extends TestCase
 
     private function setUpMock()
     {
-        $this->mock = $this->mockClass('alias:IakID\IakApiPHP\Helpers\Request\Guzzle');
+        $this->mock = $this->mockClass('alias:Dulabs\IakApiPHP\Helpers\Request\Guzzle');
         $this->mock->shouldReceive('sendRequest')->andReturn(DownloadBillMock::getSuccessMock());
         $this->mock->shouldReceive('handleException')->andThrow(MissingArguements::class);
     }

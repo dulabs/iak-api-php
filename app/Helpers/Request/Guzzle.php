@@ -1,10 +1,10 @@
 <?php
 
-namespace IakID\IakApiPHP\Helpers\Request;
+namespace Dulabs\IakApiPHP\Helpers\Request;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
-use IakID\IakApiPHP\Helpers\Formats\ResponseFormatter;
+use Dulabs\IakApiPHP\Helpers\Formats\ResponseFormatter;
 
 class Guzzle
 {

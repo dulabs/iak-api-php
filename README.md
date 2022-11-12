@@ -26,7 +26,7 @@ You can use below snippet code to use our check balance service on prepaid API a
 require_once __DIR__ . "/vendor/autoload.php";
 
 // import IAKPrepaid Class
-use IakID\IakApiPHP\Services\IAKPrepaid;
+use Dulabs\IakApiPHP\Services\IAKPrepaid;
 
 $iakPrepaid = new IAKPrepaid([
   'userHp' => 'your-username',
@@ -45,7 +45,7 @@ echo $balanceResult;
 require_once __DIR__ . "/vendor/autoload.php";
 
 // Import IAKPostpaid Class
-use IakID\IakApiPHP\Services\IAKPostpaid;
+use Dulabs\IakApiPHP\Services\IAKPostpaid;
 
 $iakPostpaid = new IAKPostpaid([
   'userHp' => 'your-username',

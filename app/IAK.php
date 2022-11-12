@@ -1,10 +1,10 @@
 <?php
 
-namespace IakID\IakApiPHP;
+namespace Dulabs\IakApiPHP;
 
 use Dotenv\Dotenv;
-use IakID\IakApiPHP\Helpers\FileHelper;
-use IakID\IakApiPHP\Helpers\Validations\IAKValidator;
+use Dulabs\IakApiPHP\Helpers\FileHelper;
+use Dulabs\IakApiPHP\Helpers\Validations\IAKValidator;
 
 abstract class IAK
 {

@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\Postpaid;
 
-use IakID\IakApiPHP\Helpers\Formats\ResponseFormatter;
+use Dulabs\IakApiPHP\Helpers\Formats\ResponseFormatter;
 use Tests\Mock\Postpaid\PricelistMock;
 use Tests\TestCase;
 
@@ -63,7 +63,7 @@ class PricelistTest extends TestCase
 
     private function setUpMock()
     {
-        $this->mock = $this->mockClass('alias:IakID\IakApiPHP\Helpers\Request\Guzzle');
+        $this->mock = $this->mockClass('alias:Dulabs\IakApiPHP\Helpers\Request\Guzzle');
         $this->mock->shouldReceive('sendRequest')->andReturn(PricelistMock::getPricelistMock());
     }
 }

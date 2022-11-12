@@ -1,6 +1,6 @@
 <?php
 
-namespace IakID\IakApiPHP\Helpers\Validations;
+namespace Dulabs\IakApiPHP\Helpers\Validations;
 
 class IAKValidator
 {

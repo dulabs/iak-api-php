@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use IakID\IakApiPHP\Helpers\Formats\ResponseFormatter;
+use Dulabs\IakApiPHP\Helpers\Formats\ResponseFormatter;
 use Tests\TestCase;
 use Tests\Mock\CheckBalanceMock;
 
@@ -16,7 +16,7 @@ class CheckBalanceTest extends TestCase
     /** @test */
     public function check_balance_return_success_and_not_empty()
     {
-        $mock = $this->mockClass('alias:IakID\IakApiPHP\Helpers\Request\Guzzle');
+        $mock = $this->mockClass('alias:Dulabs\IakApiPHP\Helpers\Request\Guzzle');
         $mock->shouldReceive('sendRequest')->andReturn(CheckBalanceMock::getCheckBalanceSuccessResult());
 
         $response = $this->iakPrepaid->checkBalance();

@@ -1,8 +1,8 @@
 <?php
 
-namespace IakID\IakApiPHP\Helpers\Validations;
+namespace Dulabs\IakApiPHP\Helpers\Validations;
 
-use IakID\IakApiPHP\Exceptions\MissingArguements;
+use Dulabs\IakApiPHP\Exceptions\MissingArguements;
 
 class IAKPrepaidValidator
 {

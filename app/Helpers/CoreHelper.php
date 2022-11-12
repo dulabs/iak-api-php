@@ -1,6 +1,6 @@
 <?php
 
-namespace IakID\IakApiPHP\Helpers;
+namespace Dulabs\IakApiPHP\Helpers;
 
 class CoreHelper
 {

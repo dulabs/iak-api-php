@@ -1,14 +1,14 @@
 <?php
 
-namespace IakID\IakApiPHP\Services;
+namespace Dulabs\IakApiPHP\Services;
 
 use Exception;
-use IakID\IakApiPHP\Helpers\Formats\ResponseFormatter;
-use IakID\IakApiPHP\Helpers\Formats\Url;
-use IakID\IakApiPHP\Helpers\Request\Guzzle;
-use IakID\IakApiPHP\Helpers\Request\RequestFormatter;
-use IakID\IakApiPHP\Helpers\Validations\IAKPrepaidValidator;
-use IakID\IakApiPHP\IAK;
+use Dulabs\IakApiPHP\Helpers\Formats\ResponseFormatter;
+use Dulabs\IakApiPHP\Helpers\Formats\Url;
+use Dulabs\IakApiPHP\Helpers\Request\Guzzle;
+use Dulabs\IakApiPHP\Helpers\Request\RequestFormatter;
+use Dulabs\IakApiPHP\Helpers\Validations\IAKPrepaidValidator;
+use Dulabs\IakApiPHP\IAK;
 
 class IAKPrepaid extends IAK
 {

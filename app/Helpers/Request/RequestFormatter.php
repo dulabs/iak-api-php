@@ -1,8 +1,8 @@
 <?php
 
-namespace IakID\IakApiPHP\Helpers\Request;
+namespace Dulabs\IakApiPHP\Helpers\Request;
 
-use IakID\IakApiPHP\Helpers\Formats\StringFormatter;
+use Dulabs\IakApiPHP\Helpers\Formats\StringFormatter;
 
 class RequestFormatter
 {

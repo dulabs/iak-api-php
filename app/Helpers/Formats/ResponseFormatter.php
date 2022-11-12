@@ -1,6 +1,6 @@
 <?php
 
-namespace IakID\IakApiPHP\Helpers\Formats;
+namespace Dulabs\IakApiPHP\Helpers\Formats;
 
 class ResponseFormatter
 {

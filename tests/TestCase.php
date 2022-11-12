@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use IakID\IakApiPHP\Services\IAKPostpaid;
-use IakID\IakApiPHP\Services\IAKPrepaid;
+use Dulabs\IakApiPHP\Services\IAKPostpaid;
+use Dulabs\IakApiPHP\Services\IAKPrepaid;
 use PHPUnit\Framework\TestCase as BaseTest;
 
 use Mockery;

@@ -2,8 +2,8 @@
 
 namespace Tests\Feature\Prepaid;
 
-use IakID\IakApiPHP\Exceptions\MissingArguements;
-use IakID\IakApiPHP\Helpers\Formats\ResponseFormatter;
+use Dulabs\IakApiPHP\Exceptions\MissingArguements;
+use Dulabs\IakApiPHP\Helpers\Formats\ResponseFormatter;
 use Tests\Mock\Prepaid\PricelistMock;
 use Tests\TestCase;
 
@@ -80,7 +80,7 @@ class PricelistTest extends TestCase
 
     private function setUpMock()
     {
-        $this->mock = $this->mockClass('alias:IakID\IakApiPHP\Helpers\Request\Guzzle');
+        $this->mock = $this->mockClass('alias:Dulabs\IakApiPHP\Helpers\Request\Guzzle');
         $this->mock->shouldReceive('sendRequest')->andReturn(PricelistMock::getPricelistMock());
         $this->mock->shouldReceive('handleException')->andThrow(MissingArguements::class);
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace IakID\IakApiPHP\Exceptions;
+namespace Dulabs\IakApiPHP\Exceptions;
 
 class MissingArguements extends BaseException
 {
