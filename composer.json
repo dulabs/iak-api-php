@@ -1,5 +1,5 @@
 {
-    "name": "iak-id/iak-api-php",
+    "name": "dulabs/iak-api-php",
     "description": "PHP-based SDK for IAK API Services",
     "type": "library",
     "license": "MIT",
@@ -12,13 +12,13 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/iak-id/iak-api-php.git"
+            "url": "https://github.com/dulabs/iak-api-php.git"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "IakID\\IakApiPHP\\": "app"
+            "Dulabs\\IakApiPHP\\": "app"
         }
     },
     "autoload-dev": {
